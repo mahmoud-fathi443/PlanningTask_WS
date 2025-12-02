@@ -1,0 +1,50 @@
+[0.416s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/mahmoud-fathy/PlanningTask_WS', '--log-base', '/dev/null']
+[0.418s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/mahmoud-fathy/PlanningTask_WS', '--log-base', '/dev/null'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d7bd7143ad0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7d7bd7142a20>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7d7bd7142a20>>, mixin_verb=('list',))
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.573s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mahmoud-fathy/PlanningTask_WS', '/home/mahmoud-fathy/PlanningTask_WS/--log-base', '/dev/null'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extension 'colcon_pkg'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extensions ['colcon_meta']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extension 'colcon_meta'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extensions ['ros']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extension 'ros'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extensions ['cmake', 'python']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extension 'cmake'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extension 'python'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extensions ['python_setup_py']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS) by extension 'python_setup_py'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/log) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/log) by extension 'ignore'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/log) ignored
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extensions ['colcon_pkg']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extension 'colcon_pkg'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extensions ['colcon_meta']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extension 'colcon_meta'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extensions ['ros']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extension 'ros'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extensions ['cmake', 'python']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extension 'cmake'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extension 'python'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extensions ['python_setup_py']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src) by extension 'python_setup_py'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src/planning) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src/planning) by extension 'ignore'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src/planning) by extension 'ignore_ament_install'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src/planning) by extensions ['colcon_pkg']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src/planning) by extension 'colcon_pkg'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src/planning) by extensions ['colcon_meta']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src/planning) by extension 'colcon_meta'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src/planning) by extensions ['ros']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahmoud-fathy/PlanningTask_WS/src/planning) by extension 'ros'
+[0.714s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mahmoud-fathy/PlanningTask_WS/src/planning' with type 'ros.ament_python' and name 'planning'
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

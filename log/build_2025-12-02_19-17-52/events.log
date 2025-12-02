@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.001698] (planning) JobQueued: {'identifier': 'planning', 'dependencies': OrderedDict()}
+[0.001921] (planning) JobStarted: {'identifier': 'planning'}
+[0.099621] (-) TimerEvent: {}
+[0.200265] (-) TimerEvent: {}
+[0.300968] (-) TimerEvent: {}
+[0.401643] (-) TimerEvent: {}
+[0.502204] (-) TimerEvent: {}
+[0.602957] (-) TimerEvent: {}
+[0.703555] (-) TimerEvent: {}
+[0.804134] (-) TimerEvent: {}
+[0.904718] (-) TimerEvent: {}
+[1.005286] (-) TimerEvent: {}
+[1.105881] (-) TimerEvent: {}
+[1.206461] (-) TimerEvent: {}
+[1.307046] (-) TimerEvent: {}
+[1.407629] (-) TimerEvent: {}
+[1.508750] (-) TimerEvent: {}
+[1.609781] (-) TimerEvent: {}
+[1.710502] (-) TimerEvent: {}
+[1.811151] (-) TimerEvent: {}
+[1.911812] (-) TimerEvent: {}
+[2.012416] (-) TimerEvent: {}
+[2.113591] (-) TimerEvent: {}
+[2.215781] (-) TimerEvent: {}
+[2.316405] (-) TimerEvent: {}
+[2.416978] (-) TimerEvent: {}
+[2.517573] (-) TimerEvent: {}
+[2.618160] (-) TimerEvent: {}
+[2.718743] (-) TimerEvent: {}
+[2.819318] (-) TimerEvent: {}
+[2.919873] (-) TimerEvent: {}
+[3.020459] (-) TimerEvent: {}
+[3.121004] (-) TimerEvent: {}
+[3.222073] (-) TimerEvent: {}
+[3.322642] (-) TimerEvent: {}
+[3.423220] (-) TimerEvent: {}
+[3.524325] (-) TimerEvent: {}
+[3.625378] (-) TimerEvent: {}
+[3.726408] (-) TimerEvent: {}
+[3.827075] (-) TimerEvent: {}
+[3.927760] (-) TimerEvent: {}
+[4.028762] (-) TimerEvent: {}
+[4.129389] (-) TimerEvent: {}
+[4.230423] (-) TimerEvent: {}
+[4.331509] (-) TimerEvent: {}
+[4.432545] (-) TimerEvent: {}
+[4.533593] (-) TimerEvent: {}
+[4.634615] (-) TimerEvent: {}
+[4.735603] (-) TimerEvent: {}
+[4.836601] (-) TimerEvent: {}
+[4.937173] (-) TimerEvent: {}
+[5.037770] (-) TimerEvent: {}
+[5.138706] (-) TimerEvent: {}
+[5.239723] (-) TimerEvent: {}
+[5.340779] (-) TimerEvent: {}
+[5.441799] (-) TimerEvent: {}
+[5.542480] (-) TimerEvent: {}
+[5.643047] (-) TimerEvent: {}
+[5.743645] (-) TimerEvent: {}
+[5.844224] (-) TimerEvent: {}
+[5.944895] (-) TimerEvent: {}
+[6.045533] (-) TimerEvent: {}
+[6.146592] (-) TimerEvent: {}
+[6.247608] (-) TimerEvent: {}
+[6.348221] (-) TimerEvent: {}
+[6.449215] (-) TimerEvent: {}
+[6.550252] (-) TimerEvent: {}
+[6.650933] (-) TimerEvent: {}
+[6.751570] (-) TimerEvent: {}
+[6.852641] (-) TimerEvent: {}
+[6.953697] (-) TimerEvent: {}
+[7.054357] (-) TimerEvent: {}
+[7.155037] (-) TimerEvent: {}
+[7.255655] (-) TimerEvent: {}
+[7.356217] (-) TimerEvent: {}
+[7.456743] (-) TimerEvent: {}
+[7.557271] (-) TimerEvent: {}
+[7.658339] (-) TimerEvent: {}
+[7.759355] (-) TimerEvent: {}
+[7.859964] (-) TimerEvent: {}
+[7.960544] (-) TimerEvent: {}
+[8.061119] (-) TimerEvent: {}
+[8.161769] (-) TimerEvent: {}
+[8.262320] (-) TimerEvent: {}
+[8.363072] (-) TimerEvent: {}
+[8.463790] (-) TimerEvent: {}
+[8.473225] (planning) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mahmoud-fathy/PlanningTask_WS/build/planning/build', '--no-deps', 'symlink_data'], 'cwd': '/home/mahmoud-fathy/PlanningTask_WS/build/planning', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'mahmoud-fathy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mahmoud-fathy', 'OLDPWD': '/home/mahmoud-fathy/PlanningTask_WS/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '4064', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '4285', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=430bbf78c395366b036afdda692f38c6', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mahmoud-fathy', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'JOURNAL_STREAM': '9:18676', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mahmoud-fathy', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/mahmoud-fathy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mf:@/tmp/.ICE-unix/4285,unix/mf:/tmp/.ICE-unix/4285', 'INVOCATION_ID': 'd5f839d45cd54f42b7be89e0d82b309b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TILIX_ID': 'fec5a2c0-d6aa-4b70-81fd-77fe98dd41bc', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LK4VG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mahmoud-fathy/PlanningTask_WS/build/planning', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=430bbf78c395366b036afdda692f38c6', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mahmoud-fathy/PlanningTask_WS/build/planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.564000] (-) TimerEvent: {}
+[8.664828] (-) TimerEvent: {}
+[8.765490] (-) TimerEvent: {}
+[8.866291] (-) TimerEvent: {}
+[8.967102] (-) TimerEvent: {}
+[9.067924] (-) TimerEvent: {}
+[9.168646] (-) TimerEvent: {}
+[9.269475] (-) TimerEvent: {}
+[9.318891] (planning) StdoutLine: {'line': b'running develop\n'}
+[9.369687] (-) TimerEvent: {}
+[9.470461] (-) TimerEvent: {}
+[9.571178] (-) TimerEvent: {}
+[9.671917] (-) TimerEvent: {}
+[9.772651] (-) TimerEvent: {}
+[9.869962] (planning) StdoutLine: {'line': b'running egg_info\n'}
+[9.870720] (planning) StdoutLine: {'line': b'creating planning.egg-info\n'}
+[9.872798] (-) TimerEvent: {}
+[9.926181] (planning) StdoutLine: {'line': b'writing planning.egg-info/PKG-INFO\n'}
+[9.926936] (planning) StdoutLine: {'line': b'writing dependency_links to planning.egg-info/dependency_links.txt\n'}
+[9.927397] (planning) StdoutLine: {'line': b'writing entry points to planning.egg-info/entry_points.txt\n'}
+[9.927936] (planning) StdoutLine: {'line': b'writing requirements to planning.egg-info/requires.txt\n'}
+[9.928290] (planning) StdoutLine: {'line': b'writing top-level names to planning.egg-info/top_level.txt\n'}
+[9.928584] (planning) StdoutLine: {'line': b"writing manifest file 'planning.egg-info/SOURCES.txt'\n"}
+[9.973014] (-) TimerEvent: {}
+[10.038983] (planning) StdoutLine: {'line': b"reading manifest file 'planning.egg-info/SOURCES.txt'\n"}
+[10.040501] (planning) StdoutLine: {'line': b"writing manifest file 'planning.egg-info/SOURCES.txt'\n"}
+[10.073196] (-) TimerEvent: {}
+[10.098785] (planning) StdoutLine: {'line': b'running build_ext\n'}
+[10.099354] (planning) StdoutLine: {'line': b'Creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/python3.12/site-packages/planning.egg-link (link to .)\n'}
+[10.101052] (planning) StdoutLine: {'line': b'Installing global_planner script to /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/planning\n'}
+[10.102261] (planning) StdoutLine: {'line': b'Installing map_creation script to /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/planning\n'}
+[10.103616] (planning) StdoutLine: {'line': b'Installing rviz_visualization script to /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/planning\n'}
+[10.104391] (planning) StdoutLine: {'line': b'\n'}
+[10.104742] (planning) StdoutLine: {'line': b'Installed /home/mahmoud-fathy/PlanningTask_WS/build/planning\n'}
+[10.105059] (planning) StdoutLine: {'line': b'running symlink_data\n'}
+[10.106359] (planning) StdoutLine: {'line': b'creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index\n'}
+[10.108575] (planning) StdoutLine: {'line': b'creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index/resource_index\n'}
+[10.108886] (planning) StdoutLine: {'line': b'creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index/resource_index/packages\n'}
+[10.109146] (planning) StdoutLine: {'line': b'symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/resource/planning -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index/resource_index/packages\n'}
+[10.110290] (planning) StdoutLine: {'line': b'symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/package.xml -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning\n'}
+[10.110859] (planning) StdoutLine: {'line': b'creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/launch\n'}
+[10.111173] (planning) StdoutLine: {'line': b'symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/launch/planning_task.launch.py -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/launch\n'}
+[10.111505] (planning) StdoutLine: {'line': b'creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/rviz\n'}
+[10.111793] (planning) StdoutLine: {'line': b'symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/rviz/planning_config.rviz -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/rviz\n'}
+[10.173506] (-) TimerEvent: {}
+[10.234862] (planning) CommandEnded: {'returncode': 0}
+[10.274140] (-) TimerEvent: {}
+[10.372506] (planning) JobEnded: {'identifier': 'planning', 'rc': 0}
+[10.374925] (-) TimerEvent: {}
+[10.375471] (-) EventReactorShutdown: {}

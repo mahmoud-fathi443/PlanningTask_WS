@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating planning.egg-info
+writing planning.egg-info/PKG-INFO
+writing dependency_links to planning.egg-info/dependency_links.txt
+writing entry points to planning.egg-info/entry_points.txt
+writing requirements to planning.egg-info/requires.txt
+writing top-level names to planning.egg-info/top_level.txt
+writing manifest file 'planning.egg-info/SOURCES.txt'
+reading manifest file 'planning.egg-info/SOURCES.txt'
+writing manifest file 'planning.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/python3.12/site-packages/planning.egg-link (link to .)
+Installing global_planner script to /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/planning
+Installing map_creation script to /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/planning
+Installing rviz_visualization script to /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/planning
+
+Installed /home/mahmoud-fathy/PlanningTask_WS/build/planning
+running symlink_data
+creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index
+creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index/resource_index
+creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index/resource_index/packages
+symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/resource/planning -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index/resource_index/packages
+symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/package.xml -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning
+creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/launch
+symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/launch/planning_task.launch.py -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/launch
+creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/rviz
+symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/rviz/planning_config.rviz -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/rviz

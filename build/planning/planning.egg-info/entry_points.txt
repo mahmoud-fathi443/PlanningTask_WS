@@ -1,0 +1,4 @@
+[console_scripts]
+global_planner = planning.global_planner:main
+map_creation = planning.map_creation:main
+rviz_visualization = planning.rviz_visualization:main

@@ -1,0 +1,30 @@
+[8.473s] Invoking command in '/home/mahmoud-fathy/PlanningTask_WS/build/planning': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mahmoud-fathy/PlanningTask_WS/build/planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mahmoud-fathy/PlanningTask_WS/build/planning/build --no-deps symlink_data
+[9.318s] running develop
+[9.869s] running egg_info
+[9.869s] creating planning.egg-info
+[9.925s] writing planning.egg-info/PKG-INFO
+[9.925s] writing dependency_links to planning.egg-info/dependency_links.txt
+[9.926s] writing entry points to planning.egg-info/entry_points.txt
+[9.926s] writing requirements to planning.egg-info/requires.txt
+[9.927s] writing top-level names to planning.egg-info/top_level.txt
+[9.927s] writing manifest file 'planning.egg-info/SOURCES.txt'
+[10.037s] reading manifest file 'planning.egg-info/SOURCES.txt'
+[10.039s] writing manifest file 'planning.egg-info/SOURCES.txt'
+[10.097s] running build_ext
+[10.098s] Creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/python3.12/site-packages/planning.egg-link (link to .)
+[10.100s] Installing global_planner script to /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/planning
+[10.101s] Installing map_creation script to /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/planning
+[10.102s] Installing rviz_visualization script to /home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/planning
+[10.103s] 
+[10.103s] Installed /home/mahmoud-fathy/PlanningTask_WS/build/planning
+[10.103s] running symlink_data
+[10.106s] creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index
+[10.107s] creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index/resource_index
+[10.107s] creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index/resource_index/packages
+[10.107s] symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/resource/planning -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/ament_index/resource_index/packages
+[10.109s] symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/package.xml -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning
+[10.109s] creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/launch
+[10.109s] symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/launch/planning_task.launch.py -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/launch
+[10.110s] creating /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/rviz
+[10.110s] symbolically linking /home/mahmoud-fathy/PlanningTask_WS/build/planning/rviz/planning_config.rviz -> /home/mahmoud-fathy/PlanningTask_WS/install/planning/share/planning/rviz
+[10.233s] Invoked command in '/home/mahmoud-fathy/PlanningTask_WS/build/planning' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mahmoud-fathy/PlanningTask_WS/build/planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmoud-fathy/PlanningTask_WS/install/planning/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mahmoud-fathy/PlanningTask_WS/build/planning/build --no-deps symlink_data
